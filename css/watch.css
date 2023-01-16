@@ -1,0 +1,48 @@
+body{
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.title-view{
+    width: 30%;
+    margin: 2% auto 0.5% auto;
+    text-align: center;
+
+
+}
+.title-view h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.68);
+    background: rgba(255, 255, 255, 0.76);
+    color: #000000;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.title-view h2:hover {
+    font-variation-settings: "wght" 582;
+    letter-spacing: 1px;
+}
+
+.watching{
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    background: #100f0f;
+}
+
+video{
+    width: 100%;
+    padding: 5px;
+    height: 500px;
+    box-shadow: 10px 1px 20px rgb(0, 0, 0);
+
+}
