@@ -8,6 +8,14 @@ To use the project :
 
 3- You Must Set Project Name 'MovieCenter' Not 'MovieCenter-main'
 
+4- For Upload File Without Limited You Must Change Two Value in 'php.ini'
+
+;Maximum allowed size for uploaded files.
+ upload_max_filesize = 40M //You Must Change This Value 
+
+; Must be greater than or equal to upload_max_filesize
+ post_max_size = 40M 	  //You Must Change This Value 
+
 ------------------------------------------------------------------------------------------------------------------------
 * I Put a query named 'video.sql' in the project path, which you can inject into the database and create the table
 ------------------------------------------------------------------------------------------------------------------------
