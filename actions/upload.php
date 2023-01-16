@@ -29,9 +29,10 @@
                 } else {
 
                     $msg = "You Can Upload Only : mp4 , flv , mkv , webm , 3gp";
-                    header("Location:index.php?msg=$msg");
-
+                    header("Location:../index.php?msg=$msg");
                 }
+
+
                 // Start Upload & Checking Cover & Save In DATABASE
                 if(isset($_FILES['cover']))
                 {
@@ -59,8 +60,7 @@
                         else{
 
                             $msg = "You Can Upload Only : png , jpg , jpeg ";
-                            header("Location:index.php?msg=$msg");
-
+                            header("Location:../index.php?msg=$msg");
 
                         }
 
@@ -72,11 +72,9 @@
             }
 
     }
-
         else{
-
-            $msg = "Check Your Movie,Cover To Upload";
-            header("Location:index.php?msg=$msg");
+            $msg = "Check Size Your Movie , Cover !!";
+            header("Location:../index.php?msg=$msg");
         }
 
 

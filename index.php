@@ -12,11 +12,11 @@ require 'head_foot/header.php';
     }
     ?>
     <h2>Upload Your Movie</h2>
-    <form action="Actions/upload.php" method="post" enctype="multipart/form-data">
+    <form action="actions/upload.php" method="post" enctype="multipart/form-data">
 
         <!-- Start Section Select Movie  -->
         <div class="item-box">
-            <input id="movies" class="button-33" style="visibility:hidden;" role="button" type="file" accept="video/mpeg,video/mp4,video/mkv" name="movie" required>
+            <input id="movies" class="button-33" style="visibility:hidden;" role="button" type="file" accept="video/3gp,video/mpeg,video/mp4,video/mkv,video/flv,video/mkv,video/webm" name="movie" required>
             <label for="movies" class="button-33">Click To Select Movie</label> <!--  View Select Movie      -->
             <p class="status" id="movie-status"></p>  <!-- Text For Show Status File Selected/UnSelected  -->
             <span></span>
