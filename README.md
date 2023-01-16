@@ -9,7 +9,7 @@ To use the project :
 3- You Must Set Project Name 'MovieCenter' Not 'MovieCenter-main'
 
 ------------------------------------------------------------------------------------------------------------------------
-* I Put a file named 'video.sql' in the project path, which you can inject into the database and create the table
+* I Put a query named 'video.sql' in the project path, which you can inject into the database and create the table
 ------------------------------------------------------------------------------------------------------------------------
 
 *** Contact me if you have any questions ***
