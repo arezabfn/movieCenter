@@ -1,6 +1,6 @@
 <?php
 
-    $movie_center_path = $_SERVER['DOCUMENT_ROOT'] . '/movieCenter/';
+    $movie_center_path = $_SERVER['DOCUMENT_ROOT'] . '/moviecenter/';
 
     include $movie_center_path.'db/db.php';
 
