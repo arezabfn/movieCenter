@@ -6,7 +6,7 @@ To use the project :
  
 2- Then you need to configure the database Database name, username and password
 
-3- You Must Set Project Name 'MovieCenter' Not 'MovieCenter-main'
+3- You Must Set Project Name 'movieCenter' Not 'MovieCenter-main'
 
 4- For Upload File Without Limited You Must Change Two Value in 'php.ini'
 
