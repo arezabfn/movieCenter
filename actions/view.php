@@ -1,13 +1,8 @@
-<?php
-$movie_center_path = $_SERVER['DOCUMENT_ROOT'] . '/movieCenter/';
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/View.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -46,8 +41,7 @@ $movie_center_path = $_SERVER['DOCUMENT_ROOT'] . '/movieCenter/';
 <div class="all-cards">
     <div class="row" id="data-panel">
         <?php
-
-        include $movie_center_path.'db/db.php';
+        include '../db/db.php';
         $sql = "SELECT * FROM `video` ORDER BY id DESC "; // Query To Fetch All Files From Database
         $res = mysqli_query($con,$sql);
         if(mysqli_num_rows($res) > 0){

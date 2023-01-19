@@ -2,10 +2,8 @@
 This Section Play Target Movie
 -->
 <?php
-$movie_center_path = $_SERVER['DOCUMENT_ROOT'] . '/movieCenter/';
-
 if(isset($_GET['movie_id'])) {
-        include $movie_center_path.'db/db.php';
+        include '../db/db.php';
 
         $sql = "SELECT * FROM `video` WHERE id = " . $_GET['movie_id'];
         $res = mysqli_query($con, $sql);
@@ -13,7 +11,6 @@ if(isset($_GET['movie_id'])) {
     }else{
         header("Location:view.php");
     }
-
 ?>
 <!doctype html>
 <html lang="en">
